@@ -1,0 +1,26 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1632398547731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1632398555531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"scripts\": {\n     \"dev\": \"next dev\",\n     \"build\": \"next build\",\n     \"start\": \"next start\"\n-    \n+    \"export\":\n   },\n   \"dependencies\": {\n     \"next\": \"latest\",\n     \"react\": \"^17.0.2\",\n"
+                },
+                {
+                    "date": 1632398565150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n   \"private\": true,\n   \"scripts\": {\n     \"dev\": \"next dev\",\n     \"build\": \"next build\",\n-    \"start\": \"next start\"\n-    \"export\":\n+    \"start\": \"next start\",\n+    \"export\": \"next export\"\n   },\n   \"dependencies\": {\n     \"next\": \"latest\",\n     \"react\": \"^17.0.2\",\n"
+                }
+            ],
+            "date": 1632398547731,
+            "name": "Commit-0",
+            "content": "{\n  \"private\": true,\n  \"scripts\": {\n    \"dev\": \"next dev\",\n    \"build\": \"next build\",\n    \"start\": \"next start\"\n    \n  },\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"^17.0.2\",\n    \"react-dom\": \"^17.0.2\"\n  },\n  \"devDependencies\": {\n    \"autoprefixer\": \"^10.2.6\",\n    \"postcss\": \"^8.3.5\",\n    \"tailwindcss\": \"^2.2.4\"\n  }\n}\n"
+        }
+    ]
+}
