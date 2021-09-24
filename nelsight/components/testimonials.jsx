@@ -1,6 +1,6 @@
 const Testimonials = () => {
   return (
-    <div className="m-6">
+    <div className="flex flex-col">
       <div className="text-center ">
         <h1 className="text-3xl font-bold uppercase text-primary">
           Testimonials
@@ -10,7 +10,7 @@ const Testimonials = () => {
         </p>
       </div>
       
-        <div className="relative w-96 h-auto bg-primary rounded-md my-12 pt-24 pb-8 mx-auto px-4 shadow-md hover:shadow-lg transition flex flex-col items-center">
+        <div className="relative w-auto h-auto bg-primary rounded-md my-12 pt-24 pb-8 mx-6 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center">
           <div className="absolute rounded-full bg-gray-100 w-28 h-28 p-2 z-10 -top-8 shadow-lg hover:shadow-xl transition">
             <div className="rounded-full bg-black w-full h-full overflow-auto">
               <img src="https://rairaksa.github.io/assets/img/rai.jpg" />
