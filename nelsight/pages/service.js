@@ -37,7 +37,11 @@ const Service = () => {
         onChange={(e) => countRows(e.target.files[0])}
       />
       <h1 className="text-black">
+        Currently Under Construction
+        <br />
+        <hr />
         Rows: {rows}
+        <hr />
         Columns: {columns}
       </h1>
     </div>
