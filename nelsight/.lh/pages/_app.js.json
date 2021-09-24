@@ -1,0 +1,42 @@
+{
+    "sourceFile": "pages/_app.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1632400032168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1632400042339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import 'tailwindcss/tailwind.css'\n+\n+function MyApp({ Component, pageProps }) {\n+  return (\n+    <Lay\n+  <Component {...pageProps} />\n+  )\n+}\n+\n+export default MyApp\n"
+                },
+                {
+                    "date": 1632400051473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import 'tailwindcss/tailwind.css'\n+import Layout from '../components/layout'\n+\n+function MyApp({ Component, pageProps }) {\n+  return (\n+    <Layout>\n+  <Component {...pageProps} />\n+  )\n+}\n+\n+export default MyApp\n"
+                },
+                {
+                    "date": 1632400087362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import \"tailwindcss/tailwind.css\";\n+import Layout from \"../components/layout\";\n+\n+function MyApp({ Component, pageProps }) {\n+  return (\n+    <Layout>\n+      <Component {...pageProps} />\n+    </Layout>\n+  );\n+}\n+\n+export default MyApp;\n"
+                },
+                {
+                    "date": 1632483697354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,39 +2,14 @@\n import Layout from \"../components/layout\";\n \n function MyApp({ Component, pageProps }) {\n   return (\n+    <Head>\n+        <title>NelSight</title>\n+      </Head>\n     <Layout>\n       <Component {...pageProps} />\n     </Layout>\n   );\n }\n \n export default MyApp;\n-import 'tailwindcss/tailwind.css'\n-import Layout from '../components/layout'\n-\n-function MyApp({ Component, pageProps }) {\n-  return (\n-    <Layout>\n-  <Component {...pageProps} />\n-  )\n-}\n-\n-export default MyApp\n-import 'tailwindcss/tailwind.css'\n-\n-function MyApp({ Component, pageProps }) {\n-  return (\n-    <Lay\n-  <Component {...pageProps} />\n-  )\n-}\n-\n-export default MyApp\n-import 'tailwindcss/tailwind.css'\n-\n-function MyApp({ Component, pageProps }) {\n-  return (<Component {...pageProps} />)\n-}\n-\n-export default MyApp\n"
+                },
+                {
+                    "date": 1632483709455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import Layout from \"../components/layout\";\n \n function MyApp({ Component, pageProps }) {\n   return (\n+    \n     <Head>\n         <title>NelSight</title>\n       </Head>\n     <Layout>\n"
+                },
+                {
+                    "date": 1632483715266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import \"tailwindcss/tailwind.css\";\n+import Layout from \"../components/layout\";\n+\n+function MyApp({ Component, pageProps }) {\n+  return (\n+    \n+    <Layout>\n+      <Component {...pageProps} />\n+    </Layout>\n+  );\n+}\n+\n+export default MyApp;\n"
+                }
+            ],
+            "date": 1632400032168,
+            "name": "Commit-0",
+            "content": "import 'tailwindcss/tailwind.css'\n\nfunction MyApp({ Component, pageProps }) {\n  return (<Component {...pageProps} />)\n}\n\nexport default MyApp\n"
+        }
+    ]
+}

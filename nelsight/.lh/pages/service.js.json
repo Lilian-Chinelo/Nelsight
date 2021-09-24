@@ -1,0 +1,310 @@
+{
+    "sourceFile": "pages/service.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 73,
+            "patches": [
+                {
+                    "date": 1632424629814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1632425756923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n-const service = () => {\r\n+const Service = () => {\r\n+    \r\n     return (\r\n         <div>\r\n             Enter\r\n         </div>\r\n     );\r\n }\r\n\\ No newline at end of file\n \r\n-export default service;\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425766161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const Service = () => {\r\n-    \r\n+    const \r\n     return (\r\n         <div>\r\n             Enter\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1632425775862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+const Service = () => {\r\n+    const [rows, setRows]\r\n+    return (\r\n+        <div>\r\n+            Enter\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425783811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+const Service = () => {\r\n+    const [rows, setRows] = useSt\r\n+    return (\r\n+        <div>\r\n+            Enter\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425789476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+const Service = () => {\r\n+    const [rows, setRows] = useState\r\n+    return (\r\n+        <div>\r\n+            Enter\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425796547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState()\r\n+    return (\r\n+        <div>\r\n+            Enter\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425806253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    \r\n+    return (\r\n+        <div>\r\n+            Enter\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425819079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns]\r\n+    return (\r\n+        <div>\r\n+            Enter\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425824287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = use\r\n+    return (\r\n+        <div>\r\n+            Enter\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425845153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div>\r\n+            Rows \r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425850951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div>\r\n+            Rows: {rows}\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425857183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div>\r\n+            Rows: {rows} \r\n+            Columns\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632425864004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div>\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426428640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div >\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426433858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=>\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426439649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\"h-fu\">\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426448058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\"h-fscreen\">\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426458377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\"h-screen w-full\">\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426474733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\"h-screen w-full\">\r\n+            \r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426481051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\"h-screen w-full\">\r\n+            <h1>\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426487341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\"h-screen w-full\">\r\n+            <h1>\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+            </h1\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426507555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\"h-screen w-full\">\r\n+            <h1 cl>\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+            </h1>\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426513597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\"h-screen w-full\">\r\n+            <h1 className=\"\">\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+            </h1>\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426520350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\"h-screen w-full\">\r\n+            <h1 className=\"text-black\">\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+            </h1>\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426539051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\" myh-screen w-full\">\r\n+            <h1 className=\"text-black\">\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+            </h1>\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426544640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\" my-40 h-screen w-full\">\r\n+            <h1 className=\"text-black\">\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+            </h1>\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426563713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\" py-40 h-screen w-full\">\r\n+            <h1 className=\"text-black\">\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+            </h1>\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426631955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\" py-40 h-screen w-full\">\r\n+            \r\n+            <h1 className=\"text-black\">\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+            </h1>\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426979622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const [rows, setRows] = useState(0)\r\n+    const [columns, setColumns] = useState(0)\r\n+    return (\r\n+        <div className=\" py-40 h-screen w-full\">\r\n+            <input type=\"file\"\r\n+       id=\"avatar\" name=\"avatar\"\r\n+       accept=\"image/png, image/jpeg\">\r\n+            <h1 className=\"text-black\">\r\n+            Rows: {rows} \r\n+            Columns: {columns}\r\n+            </h1>\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Service;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632426988074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        id=\"avatar\"\r\n+        name=\"avatar\"\r\n+        accept=\"image/png, image/jpeg\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427155226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        id=\"avatar\"\r\n+        name=\"avatar\"\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427192652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        mu\r\n+        name=\"avatar\"\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427201251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427210754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427216571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  con\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427223071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427237192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  \r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427246043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  na\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427255421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  naf\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427263331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  c\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427268492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const \r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427288785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const count\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427294435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427301686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427306884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+      \r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427463124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        // ...\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427471904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        // ...\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427612659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    Workbook.eachSheet(function(worksheet, sheetId) {\r\n+        set\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427618377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    Workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRow\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427623827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    Workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(s)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427641852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,29 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    Workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        on\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427653081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,29 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    Workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={()}\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427658600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,29 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    Workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() =}\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427723060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const workbook = new ExcelJS.Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    Workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427729370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+    const workbook = new ExcelJS.Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    Workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427740995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = new ExcelJS.Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    Workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427751102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = new ExcelJS.Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427774206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427835563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = (woor) =>{\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427845333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = (worksheet) =>{\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632427972484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632428232741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = () =>{\r\n+      \r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632428242921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = (excel) =>{\r\n+    workbook.xlsx.readFile(\"C:/1.xlsx\")\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632428253441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = (excel_file) =>{\r\n+    workbook.xlsx.readFile(excel_file)\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632428421106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,45 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  handleChange(e) {\r\n+    this.file = e.target.files[0]\r\n+  },\r\n+  handleImport() {\r\n+    const wb = new Excel.Workbook();\r\n+    const reader = new FileReader()\r\n+  \r\n+    reader.readAsArrayBuffer(this.file)\r\n+    reader.onload = () => {\r\n+      const buffer = reader.result;\r\n+      wb.xlsx.load(buffer).then(workbook => {\r\n+        console.log(workbook, 'workbook instance')\r\n+        workbook.eachSheet((sheet, id) => {\r\n+          sheet.eachRow((row, rowIndex) => {\r\n+            console.log(row.values, rowIndex)\r\n+          })\r\n+        })\r\n+      })\r\n+    }\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632428429014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,45 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  handleChange(e) {\r\n+    this.file = e.target.files[0]\r\n+  }\r\n+  handleImport() {\r\n+    const wb = new Excel.Workbook();\r\n+    const reader = new FileReader()\r\n+  \r\n+    reader.readAsArrayBuffer(this.file)\r\n+    reader.onload = () => {\r\n+      const buffer = reader.result;\r\n+      wb.xlsx.load(buffer).then(workbook => {\r\n+        console.log(workbook, 'workbook instance')\r\n+        workbook.eachSheet((sheet, id) => {\r\n+          sheet.eachRow((row, rowIndex) => {\r\n+            console.log(row.values, rowIndex)\r\n+          })\r\n+        })\r\n+      })\r\n+    }\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632428469975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = (excel_file) =>{\r\n+    workbook.xlsx.readFile(excel_file)\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => }\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632428594446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = (excel_file) =>{\r\n+    workbook.xlsx.readFile(excel_file)\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => c}\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632428600019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = (excel_file) =>{\r\n+    workbook.xlsx.readFile(excel_file)\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => countRows}\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632428731578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = (excel_file) =>{\r\n+    workbook.xlsx.readFile(excel_file)\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={() => countRows(e.target.files[0])}\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632428763927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = new Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = (excel_file) =>{\r\n+    workbook.xlsx.readFile(excel_file)\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        setRows(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={(e) => countRows(e.target.files[0])}\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                },
+                {
+                    "date": 1632429087172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   \r\n   const countRows = (excel_file) =>{\r\n     workbook.xlsx.readFile(excel_file)\r\n     workbook.eachSheet(function(worksheet, sheetId) {\r\n-        c(sheetId)\r\n+        co(sheetId)\r\n       });\r\n   }\r\n   return (\r\n     <div className=\" py-40 h-screen w-full\">\r\n"
+                },
+                {
+                    "date": 1632429093157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Workbook } from \"exceljs\";\r\n+import { useState } from \"react\";\r\n+\r\n+const Service = () => {\r\n+  const workbook = new Workbook()\r\n+  const [rows, setRows] = useState(0);\r\n+  const [columns, setColumns] = useState(0);\r\n+  \r\n+  const countRows = (excel_file) =>{\r\n+    workbook.xlsx.readFile(excel_file)\r\n+    workbook.eachSheet(function(worksheet, sheetId) {\r\n+        console.log(sheetId)\r\n+      });\r\n+  }\r\n+  return (\r\n+    <div className=\" py-40 h-screen w-full\">\r\n+      <input\r\n+        type=\"file\"\r\n+        multiple\r\n+        accept=\".xlsx,.xls\"\r\n+        onChange={(e) => countRows(e.target.files[0])}\r\n+      />\r\n+      <h1 className=\"text-black\">\r\n+        Rows: {rows}\r\n+        Columns: {columns}\r\n+      </h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Service;\r\n"
+                }
+            ],
+            "date": 1632424629814,
+            "name": "Commit-0",
+            "content": "const service = () => {\r\n    return (\r\n        <div>\r\n            Enter\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default service;"
+        }
+    ]
+}

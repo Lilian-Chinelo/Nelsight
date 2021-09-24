@@ -7,9 +7,13 @@
     "export": "next export"
   },
   "dependencies": {
+    "exceljs": "^4.3.0",
+    "fs": "^0.0.1-security",
     "next": "latest",
+    "next-pwa": "^5.3.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",

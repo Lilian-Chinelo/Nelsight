@@ -1,0 +1,78 @@
+{
+    "sourceFile": "components/layout/index.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1632399837188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1632399848881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+const Layout = ({}) => {\r\n+    return (\r\n+        <div>\r\n+            Enter\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399863364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <Na\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399869518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <Navbar></Navbar>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399879396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        </Navbar>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399884709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <Navbar/>\r\n+        \r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399890973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <Navbar/>\r\n+        {children}\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399898350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <Navbar/>\r\n+        {children}\r\n+        <Foo\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399903702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import Footer from \"./footer\";\r\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <Navbar/>\r\n+        {children}\r\n+        <Footer/>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399966041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <div>\r\n+            Enter\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399974682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <div className='bg-background min-h-screen dark:bg-tertiary'>\r\n+            <\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399980084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <div className='bg-background min-h-screen dark:bg-tertiary'>\r\n+            <Navbar\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399985472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <div className='bg-background min-h-screen dark:bg-tertiary'>\r\n+            <Navbar />\r\n+            {}\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632399990719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <div className='bg-background min-h-screen dark:bg-tertiary'>\r\n+            <Navbar />\r\n+            {children}\r\n+            \r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632400353597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <div className='bg-background min-h-screen dark:bg-tertiary'>\r\n+            <Navbar />\r\n+            {children}\r\n+            <Footer />\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1632401247364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import Footer from \"./footer\";\r\n+import Navbar from \"./navbar\";\r\n+\r\n+const Layout = ({children}) => {\r\n+    return (\r\n+        <div className='bg-background min-h-screen'>\r\n+            <Navbar />\r\n+            {children}\r\n+            <Footer />\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default Layout;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1632399837188,
+            "name": "Commit-0",
+            "content": "const index = () => {\r\n    return (\r\n        <div>\r\n            Enter\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default index;"
+        }
+    ]
+}
